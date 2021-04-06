@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background: #d3d3d3;
+}
+/*navbar*/
+.navigation {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.logo {
+  width: 250px;
+  height: 100px;
+}
+.inpppp {
+  width: 300px;
+  height: 40px;
+  margin-block: 30px;
+}
+.link {
+  display: flex;
+  margin-block: 15px;
+  margin-right: 20px;
+}
+.link__item {
+  width: 60px;
+  height: 60px;
+  margin-right: 25px;
+  font-family: "Roboto", Regular;
+}
+
+/*слайдер*/
+.main {
+  padding-block: 30px;
+}
+.center {
+  border-radius: 10px;
+  background: white;
+  width: 1020px;
+  height: 150px;
+}
+.users {
+  display: flex;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+.staff__avatar {
+  margin-block: 10px;
+  background: url("../foto/img_avatar.png");
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  margin-right: 100px;
+  border: 5px solid #8b008b;
+}
+.staff__avatar1 {
+  margin-block: 10px;
+  border: 5px solid #8b008b;
+  margin-right: 100px;
+  background: url("../foto/3add908b6d80c815bbc78f35ac982bb9.jpg");
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+}
+
+.text__item {
+  font-size: 15px;
+  margin-left: 5px;
+  margin-block: 10px;
+}
+.prev {
+  position: absolute;
+  margin-top: -70px;
+  color: black;
+  margin-left: 3px;
+}
+.next {
+  position: absolute;
+  margin-top: -70px;
+  color: black;
+  margin-right: 515px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(16, 171, 233, 0.8);
+}
+
+/*лента*/
+.lenta {
+  background: white;
+  width: 1120px;
+  height: 800px;
+  border-radius: 10px;
+}
+.top {
+  display: flex;
+}
+.text__p {
+  font-size: 20px;
+  margin-left: 50px;
+  padding-block: 20px;
+  font-family: "Roboto", Regular;
+}
+.ava {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.center__foto {
+  border: 5px solid black;
+}
+.like__comment {
+  display: flex;
+}
+.delete {
+  width: 60px;
+  height: 30px;
+  margin-left: 700px;
+  background: yellow;
+}
+.edit {
+  width: 60px;
+  height: 30px;
+  margin-left: 30px;
+  background: yellow;
+}
+.center__img {
+  width: 1009px;
+  height: 500px;
+}
+.like {
+  width: 50px;
+  height: 50px;
+  padding-block: 10px;
+  margin-right: 20px;
+}
+
+/*rec*/
+.lente__rec {
+  display: flex;
+}
+.acci {
+  width: 500px;
+  height: 500px;
+  margin-left: 30px;
+}
+.acci h4 {
+  font-size: 30px;
+  font-family: "Roboto", Regular;
+}
+.foto__inst {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+.pod {
+  display: flex;
+}
+.h_p p {
+  width: 100px;
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: "Roboto", Regular;
+}
+.h_p h5 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: "Roboto", Regular;
+}
+
+.btn {
+  width: 100px;
+  height: 25px;
+  background: #ff6347;
+  border-radius: 10px;
+  font-family: "Roboto", Regular;
+}
+.btn1 {
+  padding-block: 30px;
+  margin-left: 10px;
+}
+.foto__inst {
+  border: 5px solid #8b008b;
+}
+
+.regButton {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 6px 24px;
+  cursor: pointer;
+}
+.regButton:hover {
+  background: #ccc;
+}
+#window {
+  width: 350px;
+  height: 530px;
+  margin: 40px auto;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  z-index: 150;
+}
+.form {
+  width: 275px;
+  margin: -15px auto 20px auto;
+  text-align: center;
+}
+.input {
+  width: 260px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.radio {
+  margin-bottom: 10px;
+}
+.close {
+  margin: 10px 0 0 320px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 2px;
+  background: #ccc;
+}
+.close:hover {
+  background: #fff;
+}
